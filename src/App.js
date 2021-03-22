@@ -13,7 +13,7 @@ function App() {
         {<img src={logo} className="App-logo" alt="logo" /> }
         <p>
            Edit <code>src/App.js</code> and save reload. 
-          My name is FALILOU OURO DJOBO and im going to be matser React!
+         {/* My name is FALILOU OURO DJOBO and im going to be matser React! */}
         </p>
         <a
         className="App-link"
