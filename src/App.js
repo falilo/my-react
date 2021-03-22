@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
+import logo from './images/falilou-pic.jpg';
 import './App.css';
-import img from './images/falilou-pic.jpg'
 import Welcome from "./Components/Welcome";
 
 function App() {
   return (
     <div className="App">
-      <img src={img} className="photo" alt="profile" />
+     {/* <img src={img} className="photo" alt="profile" /> */}
       <Welcome />
       <header className="App-header"> 
         {<img src={logo} className="App-logo" alt="logo" /> }
