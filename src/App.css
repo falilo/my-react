@@ -1,5 +1,7 @@
-.img{
-  height: 50px;
+
+.photo {
+  height: 250px;
+  width: 200px;
 }
 
 .App {
@@ -18,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #093386;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
