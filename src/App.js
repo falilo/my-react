@@ -10,9 +10,9 @@ function App() {
       <img src={img} className="photo" alt="profile" />
       <Welcome />
       <header className="App-header"> 
-        {/*<img src={logo} className="App-logo" alt="logo" /> */}
+        {<img src={logo} className="App-logo" alt="logo" /> }
         <p>
-          {/* Edit <code>src/App.js</code> and save reload. */}
+           Edit <code>src/App.js</code> and save reload. 
           My name is FALILOU OURO DJOBO and im going to be matser React!
         </p>
         <a
@@ -21,11 +21,11 @@ function App() {
         target="_blank"
         rel="noopener noreferrer"
         >
-          {/*Learn React */}
+          Learn React 
         </a>
       </header>  
     </div>
-  );
+  )
 
 }
 
