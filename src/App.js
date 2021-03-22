@@ -6,7 +6,6 @@ import Welcome from "./Components/Welcome";
 function App() {
   return (
     <div className="App">
-      <Welcome />
       <header className="App-header"> 
         {<img src={logo} className="App-logo" alt="logo" /> }
         <p>
@@ -19,7 +18,8 @@ function App() {
         rel="noopener noreferrer"
         "Check Me Out!"
         </herf>
-      </header>  
+      </header> 
+      <Welcome /> 
     </div>
   )
 
